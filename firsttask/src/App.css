@@ -102,6 +102,20 @@ text-align: center;
 color: #101828;
 }
 
+.hname2{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  
+  text-align: center;
+  
+  color: #101828;
+  visibility: hidden;
+  }
+
 .text{
   
 
@@ -131,6 +145,16 @@ color: #101828;
   height: 50px;
   border-radius: 50%;
 }
+
+.profile {
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 
 .footer {
   width: 100%;
