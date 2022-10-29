@@ -28,19 +28,19 @@ function App() {
 
       </div>
 
-      <img src="images/logo.svg" alt="Avatar" className="avatar" /><br />
+      <img src="images/logo.svg" alt="Avatar" className="avatar" id="profile__img"/><br />
 
 
       <h1 className="hname">Annette Black</h1><br />
       <div className="tabs">
 
         
-        <div className='mainy'><button className="btn success"><p className="text">Twitter Link</p></button></div><br />
-        <div className='mainy'><button className="btn success"><p className="text">Zuri Team</p></button></div><br />
-        <div className='mainy'><button className="btn success"><p className="text">Zuri Books</p></button></div><br />
-        <div className='mainy'><button className="btn success"><p className="text">Python Books</p></button></div><br />
-        <div className='mainy'><button className="btn success"><p className="text">Background Check for Coders</p></button></div><br />
-        <div className='mainy'><button className="btn success"><p className="text">Design Books</p></button></div><br />
+        <div className='mainy'><a className="btn" id="twitter"><p className="text">Twitter Link</p></a></div><br />
+        <div className='mainy'><a className="btn" id="btn__zuri"><p className="text">Zuri Team</p></a></div><br />
+        <div className='mainy'><a className="btn" id="books"><p className="text">Zuri Books</p></a></div><br />
+        <div className='mainy'><a className="btn" id="book__python"><p className="text">Python Books</p></a></div><br />
+        <div className='mainy'><a className="btn" id="pitch"><p className="text">Background Check for Coders</p></a></div><br />
+        <div className='mainy'><a className="btn" id="book__design"><p className="text">Design Books</p></a></div><br />
       </div>
 
       
