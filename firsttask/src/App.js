@@ -18,11 +18,12 @@ function App() {
       <div className="topnav" id="myTopnav">
 
 
+      
         <a className="share"><img src="images/share.svg" alt="Avatar" className="avatar" /></a>
-
-        <a href="javascript:void(0);" className="icon" onClick="myFunction()">
+         
+     {/*<a href="javascript:void(0);" className="icon" onClick="myFunction()">
           <i className="fa fa-bars"></i>
-        </a>
+  </a>*/}<a className="icon"><img src="images/mobile.svg" alt="Avatar" className="avatar" /></a>
 
 
       </div>
